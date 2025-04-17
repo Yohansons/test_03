@@ -1,12 +1,12 @@
  1 import requests
  2 
- 3 url = "https://api.rabby.io/v2/points/claim_snapshot"  # Обновленный URL для новой версии API
+ 3 url = "https://api.rabby.io/v1/points/claim_snapshot"
  4 
  5 headers = {
  6     "Host": "api.rabby.io",
  7     "Connection": "keep-alive",
  8     "Content-Length": "224",
- 9     "sec-ch-ua": '"Not_A Brand";v="8", "Chromium";v="130", "Google Chrome";v="130"',
+ 9     "sec-ch-ua": '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
 10     "X-Version": "0.92.48",
 11     "sec-ch-ua-mobile": "?0",
 12     "User-Agent": UserAgent().random,
